@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lego.Security", "Lego.Security\Lego.Security.csproj", "{44972F88-FE69-4BC1-AF5A-406896E94590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lego.Security.Tests", "Lego.Security.Tests\Lego.Security.Tests.csproj", "{D0F0E479-29D7-420A-ADB9-3D7ACC8D7521}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44972F88-FE69-4BC1-AF5A-406896E94590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44972F88-FE69-4BC1-AF5A-406896E94590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44972F88-FE69-4BC1-AF5A-406896E94590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44972F88-FE69-4BC1-AF5A-406896E94590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F0E479-29D7-420A-ADB9-3D7ACC8D7521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F0E479-29D7-420A-ADB9-3D7ACC8D7521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F0E479-29D7-420A-ADB9-3D7ACC8D7521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F0E479-29D7-420A-ADB9-3D7ACC8D7521}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
