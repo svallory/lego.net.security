@@ -30,6 +30,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Blacksmith.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Lego.Patterns, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\Libs\Lego.Patterns.dll</HintPath>
@@ -61,6 +67,9 @@
     <Compile Include="Rules\SpecificationImpl.cs" />
     <Compile Include="Tasks\ITask.cs" />
     <Compile Include="ValueClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Blacksmith.pfx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
